@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+  font-size: x-large;
 }
 .container {
   border: 5px solid dodgerblue;
@@ -59,6 +60,7 @@
 .slider {
   border: 5px solid yellow;
   padding: 50px;
+  margin: 30px 0px;
 }
 .eventHeading {
   border: 5px solid purple;
@@ -77,18 +79,24 @@
   float: left;
   width: 33%;
   padding: 30px;
+  background-color: rgb(64, 174, 224);
 }
 .birthday {
   border: 5px solid violet;
   float: left;
   width: 34%;
   padding: 30px;
+  background-color: red;
 }
 .wedding {
   border: 5px solid wheat;
   float: left;
   width: 33%;
   padding: 30px;
+  background-color: tomato;
+}
+.midContainer {
+  margin: 0px 40px;
 }
 .footer {
   border: 5px solid green;
